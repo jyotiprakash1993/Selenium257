@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[test method is executing]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-05-06T01:52:25Z" name="Suite" finished-at="2022-05-06T01:53:06Z" duration-ms="40674">
+    <groups>
+    </groups>
+    <test started-at="2022-05-06T01:52:25Z" name="Test" finished-at="2022-05-06T01:53:06Z" duration-ms="40674">
+      <class name="com.sample.test.SampleFrameworkTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sample.test.SampleFrameworkTest@36cda2c2]" started-at="2022-05-06T01:52:25Z" name="setup" finished-at="2022-05-06T01:52:45Z" duration-ms="19897" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="submit()[pri:0, instance:com.sample.test.SampleFrameworkTest@36cda2c2]" started-at="2022-05-06T01:52:45Z" name="submit" finished-at="2022-05-06T01:53:06Z" duration-ms="20688" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[test method is executing]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- submit -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.sample.test.SampleFrameworkTest@36cda2c2]" started-at="2022-05-06T01:53:06Z" name="teardown" finished-at="2022-05-06T01:53:06Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.sample.test.SampleFrameworkTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
